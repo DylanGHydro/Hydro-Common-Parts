@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="mil" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -220,7 +220,7 @@
 <wire x1="-0.0762" y1="0.1778" x2="-0.0762" y2="-0.1778" width="0.1524" layer="51"/>
 <wire x1="0.0508" y1="0" x2="-0.1016" y2="0" width="0" layer="51" curve="-180"/>
 <wire x1="-0.1016" y1="0" x2="0.0508" y2="0" width="0" layer="51" curve="-180"/>
-<text x="-3.2766" y="-0.635" size="1.27" layer="25" ratio="6" rot="SR0">&gt;Name</text>
+<text x="-3.2766" y="0.635" size="1.27" layer="25" ratio="6" rot="SR0">&gt;Name</text>
 </package>
 <package name="RES_R1632-M">
 <smd name="1" x="-0.2049" y="0" dx="0.3748" dy="0.4366" layer="1"/>
@@ -258,7 +258,7 @@
 <wire x1="-0.0762" y1="0.1778" x2="-0.0762" y2="-0.1778" width="0.1524" layer="51"/>
 <wire x1="0.1016" y1="0" x2="-0.0508" y2="0" width="0" layer="51" curve="-180"/>
 <wire x1="-0.0508" y1="0" x2="0.1016" y2="0" width="0" layer="51" curve="-180"/>
-<text x="-3.2766" y="-0.635" size="1.27" layer="25" ratio="6" rot="SR0">&gt;Name</text>
+<text x="-3.2766" y="0.635" size="1.27" layer="25" ratio="6" rot="SR0">&gt;Name</text>
 </package>
 </packages>
 <packages3d>
@@ -422,7 +422,7 @@ Surface Mount Non Polarized.</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="LTR18EZPFU10L0" prefix="R">
+<deviceset name="1206RESISTOR" prefix="R">
 <gates>
 <gate name="A" symbol="RES" x="0" y="0" swaplevel="1"/>
 </gates>
