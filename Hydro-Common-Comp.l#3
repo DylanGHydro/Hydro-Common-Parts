@@ -203,62 +203,59 @@
 <smd name="P$29" x="0.5" y="5.4" dx="1" dy="0.22" layer="1" rot="R90"/>
 <smd name="P$30" x="0" y="5.4" dx="1" dy="0.22" layer="1" rot="R90"/>
 </package>
-<package name="RES_R1632">
-<smd name="1" x="-0.1541" y="0" dx="0.2732" dy="0.335" layer="1"/>
-<smd name="2" x="0.1541" y="0" dx="0.2732" dy="0.335" layer="1"/>
-<wire x1="-1.0414" y1="0" x2="-1.1938" y2="0" width="0.1524" layer="21" curve="-180"/>
-<wire x1="-1.1938" y1="0" x2="-1.0414" y2="0" width="0.1524" layer="21" curve="-180"/>
-<wire x1="-0.0254" y1="-0.1778" x2="-0.0254" y2="0.1778" width="0.1524" layer="51"/>
-<wire x1="-0.0254" y1="0.1778" x2="-0.0762" y2="0.1778" width="0.1524" layer="51"/>
-<wire x1="-0.0762" y1="-0.1778" x2="-0.0254" y2="-0.1778" width="0.1524" layer="51"/>
-<wire x1="0.0254" y1="0.1778" x2="0.0254" y2="-0.1778" width="0.1524" layer="51"/>
-<wire x1="0.0254" y1="-0.1778" x2="0.0762" y2="-0.1778" width="0.1524" layer="51"/>
-<wire x1="0.0762" y1="0.1778" x2="0.0254" y2="0.1778" width="0.1524" layer="51"/>
-<wire x1="-0.0254" y1="-0.1778" x2="0.0254" y2="-0.1778" width="0.1524" layer="51"/>
-<wire x1="0.0762" y1="-0.1778" x2="0.0762" y2="0.1778" width="0.1524" layer="51"/>
-<wire x1="0.0254" y1="0.1778" x2="-0.0254" y2="0.1778" width="0.1524" layer="51"/>
-<wire x1="-0.0762" y1="0.1778" x2="-0.0762" y2="-0.1778" width="0.1524" layer="51"/>
-<wire x1="0.0508" y1="0" x2="-0.1016" y2="0" width="0" layer="51" curve="-180"/>
-<wire x1="-0.1016" y1="0" x2="0.0508" y2="0" width="0" layer="51" curve="-180"/>
-<text x="-3.2766" y="0.635" size="1.27" layer="25" ratio="6" rot="SR0">&gt;Name</text>
+<package name="RES_CRCW_1206">
+<smd name="1" x="-1.4224" y="0" dx="0.8636" dy="1.7526" layer="1"/>
+<smd name="2" x="1.4224" y="0" dx="0.8636" dy="1.7526" layer="1"/>
+<wire x1="-0.6858" y1="-1.016" x2="0.6858" y2="-1.016" width="0.1524" layer="21"/>
+<wire x1="0.6858" y1="1.016" x2="-0.6858" y2="1.016" width="0.1524" layer="21"/>
+<wire x1="-0.9906" y1="-0.8636" x2="-0.9906" y2="0.8636" width="0.1524" layer="51"/>
+<wire x1="-0.9906" y1="0.8636" x2="-1.651" y2="0.8636" width="0.1524" layer="51"/>
+<wire x1="-1.651" y1="-0.8636" x2="-0.9906" y2="-0.8636" width="0.1524" layer="51"/>
+<wire x1="0.9906" y1="0.889" x2="0.9906" y2="-0.8636" width="0.1524" layer="51"/>
+<wire x1="0.9906" y1="-0.8636" x2="1.651" y2="-0.8636" width="0.1524" layer="51"/>
+<wire x1="1.651" y1="0.8636" x2="1.651" y2="0.889" width="0.1524" layer="51"/>
+<wire x1="1.651" y1="0.889" x2="0.9906" y2="0.889" width="0.1524" layer="51"/>
+<wire x1="-0.9906" y1="-0.8636" x2="0.9906" y2="-0.8636" width="0.1524" layer="51"/>
+<wire x1="1.651" y1="-0.8636" x2="1.651" y2="0.8636" width="0.1524" layer="51"/>
+<wire x1="1.651" y1="0.8636" x2="-0.9906" y2="0.8636" width="0.1524" layer="51"/>
+<wire x1="-1.651" y1="0.8636" x2="-1.651" y2="-0.8636" width="0.1524" layer="51"/>
+<text x="-3.2766" y="-0.635" size="1.27" layer="25" ratio="6" rot="SR0">&gt;Name</text>
 </package>
-<package name="RES_R1632-M">
-<smd name="1" x="-0.2049" y="0" dx="0.3748" dy="0.4366" layer="1"/>
-<smd name="2" x="0.2049" y="0" dx="0.3748" dy="0.4366" layer="1"/>
-<wire x1="-1.143" y1="0" x2="-1.2954" y2="0" width="0.1524" layer="21" curve="-180"/>
-<wire x1="-1.2954" y1="0" x2="-1.143" y2="0" width="0.1524" layer="21" curve="-180"/>
-<wire x1="-0.0254" y1="-0.1778" x2="-0.0254" y2="0.1778" width="0.1524" layer="51"/>
-<wire x1="-0.0254" y1="0.1778" x2="-0.0762" y2="0.1778" width="0.1524" layer="51"/>
-<wire x1="-0.0762" y1="-0.1778" x2="-0.0254" y2="-0.1778" width="0.1524" layer="51"/>
-<wire x1="0.0254" y1="0.1778" x2="0.0254" y2="-0.1778" width="0.1524" layer="51"/>
-<wire x1="0.0254" y1="-0.1778" x2="0.0762" y2="-0.1778" width="0.1524" layer="51"/>
-<wire x1="0.0762" y1="0.1778" x2="0.0254" y2="0.1778" width="0.1524" layer="51"/>
-<wire x1="-0.0254" y1="-0.1778" x2="0.0254" y2="-0.1778" width="0.1524" layer="51"/>
-<wire x1="0.0762" y1="-0.1778" x2="0.0762" y2="0.1778" width="0.1524" layer="51"/>
-<wire x1="0.0254" y1="0.1778" x2="-0.0254" y2="0.1778" width="0.1524" layer="51"/>
-<wire x1="-0.0762" y1="0.1778" x2="-0.0762" y2="-0.1778" width="0.1524" layer="51"/>
-<wire x1="0" y1="0" x2="-0.1524" y2="0" width="0" layer="51" curve="-180"/>
-<wire x1="-0.1524" y1="0" x2="0" y2="0" width="0" layer="51" curve="-180"/>
-<text x="-3.2766" y="0.635" size="1.27" layer="25" ratio="6" rot="SR0">&gt;Name</text>
+<package name="RES_CRCW_1206-M">
+<smd name="1" x="-1.4732" y="0" dx="0.9652" dy="1.8542" layer="1"/>
+<smd name="2" x="1.4732" y="0" dx="0.9652" dy="1.8542" layer="1"/>
+<wire x1="-0.6604" y1="-1.016" x2="0.6604" y2="-1.016" width="0.1524" layer="21"/>
+<wire x1="0.6604" y1="1.016" x2="-0.6604" y2="1.016" width="0.1524" layer="21"/>
+<wire x1="-0.9906" y1="-0.8636" x2="-0.9906" y2="0.8636" width="0.1524" layer="51"/>
+<wire x1="-0.9906" y1="0.8636" x2="-1.651" y2="0.8636" width="0.1524" layer="51"/>
+<wire x1="-1.651" y1="-0.8636" x2="-0.9906" y2="-0.8636" width="0.1524" layer="51"/>
+<wire x1="0.9906" y1="0.889" x2="0.9906" y2="-0.8636" width="0.1524" layer="51"/>
+<wire x1="0.9906" y1="-0.8636" x2="1.651" y2="-0.8636" width="0.1524" layer="51"/>
+<wire x1="1.651" y1="0.8636" x2="1.651" y2="0.889" width="0.1524" layer="51"/>
+<wire x1="1.651" y1="0.889" x2="0.9906" y2="0.889" width="0.1524" layer="51"/>
+<wire x1="-0.9906" y1="-0.8636" x2="0.9906" y2="-0.8636" width="0.1524" layer="51"/>
+<wire x1="1.651" y1="-0.8636" x2="1.651" y2="0.8636" width="0.1524" layer="51"/>
+<wire x1="1.651" y1="0.8636" x2="-0.9906" y2="0.8636" width="0.1524" layer="51"/>
+<wire x1="-1.651" y1="0.8636" x2="-1.651" y2="-0.8636" width="0.1524" layer="51"/>
+<text x="-3.2766" y="-0.635" size="1.27" layer="25" ratio="6" rot="SR0">&gt;Name</text>
 </package>
-<package name="RES_R1632-L">
-<smd name="1" x="-0.1033" y="0" dx="0.1716" dy="0.335" layer="1"/>
-<smd name="2" x="0.1033" y="0" dx="0.1716" dy="0.335" layer="1"/>
-<wire x1="-0.9398" y1="0" x2="-1.0922" y2="0" width="0.1524" layer="21" curve="-180"/>
-<wire x1="-1.0922" y1="0" x2="-0.9398" y2="0" width="0.1524" layer="21" curve="-180"/>
-<wire x1="-0.0254" y1="-0.1778" x2="-0.0254" y2="0.1778" width="0.1524" layer="51"/>
-<wire x1="-0.0254" y1="0.1778" x2="-0.0762" y2="0.1778" width="0.1524" layer="51"/>
-<wire x1="-0.0762" y1="-0.1778" x2="-0.0254" y2="-0.1778" width="0.1524" layer="51"/>
-<wire x1="0.0254" y1="0.1778" x2="0.0254" y2="-0.1778" width="0.1524" layer="51"/>
-<wire x1="0.0254" y1="-0.1778" x2="0.0762" y2="-0.1778" width="0.1524" layer="51"/>
-<wire x1="0.0762" y1="0.1778" x2="0.0254" y2="0.1778" width="0.1524" layer="51"/>
-<wire x1="-0.0254" y1="-0.1778" x2="0.0254" y2="-0.1778" width="0.1524" layer="51"/>
-<wire x1="0.0762" y1="-0.1778" x2="0.0762" y2="0.1778" width="0.1524" layer="51"/>
-<wire x1="0.0254" y1="0.1778" x2="-0.0254" y2="0.1778" width="0.1524" layer="51"/>
-<wire x1="-0.0762" y1="0.1778" x2="-0.0762" y2="-0.1778" width="0.1524" layer="51"/>
-<wire x1="0.1016" y1="0" x2="-0.0508" y2="0" width="0" layer="51" curve="-180"/>
-<wire x1="-0.0508" y1="0" x2="0.1016" y2="0" width="0" layer="51" curve="-180"/>
-<text x="-3.2766" y="0.635" size="1.27" layer="25" ratio="6" rot="SR0">&gt;Name</text>
+<package name="RES_CRCW_1206-L">
+<smd name="1" x="-1.3716" y="0" dx="0.762" dy="1.7526" layer="1"/>
+<smd name="2" x="1.3716" y="0" dx="0.762" dy="1.7526" layer="1"/>
+<wire x1="-0.6858" y1="-1.016" x2="0.6858" y2="-1.016" width="0.1524" layer="21"/>
+<wire x1="0.6858" y1="1.016" x2="-0.6858" y2="1.016" width="0.1524" layer="21"/>
+<wire x1="-0.9906" y1="-0.8636" x2="-0.9906" y2="0.8636" width="0.1524" layer="51"/>
+<wire x1="-0.9906" y1="0.8636" x2="-1.651" y2="0.8636" width="0.1524" layer="51"/>
+<wire x1="-1.651" y1="-0.8636" x2="-0.9906" y2="-0.8636" width="0.1524" layer="51"/>
+<wire x1="0.9906" y1="0.889" x2="0.9906" y2="-0.8636" width="0.1524" layer="51"/>
+<wire x1="0.9906" y1="-0.8636" x2="1.651" y2="-0.8636" width="0.1524" layer="51"/>
+<wire x1="1.651" y1="0.8636" x2="1.651" y2="0.889" width="0.1524" layer="51"/>
+<wire x1="1.651" y1="0.889" x2="0.9906" y2="0.889" width="0.1524" layer="51"/>
+<wire x1="-0.9906" y1="-0.8636" x2="0.9906" y2="-0.8636" width="0.1524" layer="51"/>
+<wire x1="1.651" y1="-0.8636" x2="1.651" y2="0.8636" width="0.1524" layer="51"/>
+<wire x1="1.651" y1="0.8636" x2="-0.9906" y2="0.8636" width="0.1524" layer="51"/>
+<wire x1="-1.651" y1="0.8636" x2="-1.651" y2="-0.8636" width="0.1524" layer="51"/>
+<text x="-3.2766" y="-0.635" size="1.27" layer="25" ratio="6" rot="SR0">&gt;Name</text>
 </package>
 </packages>
 <packages3d>
@@ -327,6 +324,8 @@
 <symbol name="RES">
 <pin name="11" x="0" y="0" visible="pin" length="short" direction="pas" swaplevel="1"/>
 <pin name="22" x="12.7" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
+<text x="-2.6162" y="-5.5372" size="3.4798" layer="96" ratio="10" rot="SR0">&gt;Value</text>
+<text x="-2.1844" y="2.0828" size="3.4798" layer="95" ratio="10" rot="SR0">&gt;Name</text>
 <wire x1="3.175" y1="1.27" x2="4.445" y2="-1.27" width="0.2032" layer="94"/>
 <wire x1="4.445" y1="-1.27" x2="5.715" y2="1.27" width="0.2032" layer="94"/>
 <wire x1="5.715" y1="1.27" x2="6.985" y2="-1.27" width="0.2032" layer="94"/>
@@ -340,6 +339,8 @@
 <symbol name="RESV">
 <pin name="1" x="0" y="12.7" visible="off" length="short" direction="pas" swaplevel="1" rot="R270"/>
 <pin name="2" x="0" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R90"/>
+<text x="1.905" y="3.3528" size="3.4798" layer="96" ratio="10" rot="SR0">&gt;Value</text>
+<text x="1.905" y="6.5024" size="3.4798" layer="95" ratio="10" rot="SR0">&gt;Name</text>
 <wire x1="0" y1="2.54" x2="-1.27" y2="3.175" width="0.2032" layer="94"/>
 <wire x1="-1.27" y1="3.175" x2="1.27" y2="4.445" width="0.2032" layer="94"/>
 <wire x1="1.27" y1="4.445" x2="-1.27" y2="5.715" width="0.2032" layer="94"/>
@@ -422,44 +423,44 @@ Surface Mount Non Polarized.</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="1206RESISTOR" prefix="R">
+<deviceset name="CRCW12060000Z0EA" prefix="R" uservalue="yes">
 <gates>
 <gate name="A" symbol="RES" x="0" y="0" swaplevel="1"/>
 </gates>
 <devices>
-<device name="" package="RES_R1632">
+<device name="" package="RES_CRCW_1206">
 <connects>
 <connect gate="A" pin="11" pad="1"/>
 <connect gate="A" pin="22" pad="2"/>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="MANUFACTURER_PART_NUMBER" value="LTR18EZPFU10L0" constant="no"/>
-<attribute name="VENDOR" value="ROHM Semiconductor" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CRCW12060000Z0EA" constant="no"/>
+<attribute name="VENDOR" value="Vishay" constant="no"/>
 </technology>
 </technologies>
 </device>
-<device name="RES_R1632-M" package="RES_R1632-M">
+<device name="RES_CRCW_1206-M" package="RES_CRCW_1206-M">
 <connects>
 <connect gate="A" pin="11" pad="1"/>
 <connect gate="A" pin="22" pad="2"/>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="MANUFACTURER_PART_NUMBER" value="LTR18EZPFU10L0" constant="no"/>
-<attribute name="VENDOR" value="ROHM Semiconductor" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CRCW12060000Z0EA" constant="no"/>
+<attribute name="VENDOR" value="Vishay" constant="no"/>
 </technology>
 </technologies>
 </device>
-<device name="RES_R1632-L" package="RES_R1632-L">
+<device name="RES_CRCW_1206-L" package="RES_CRCW_1206-L">
 <connects>
 <connect gate="A" pin="11" pad="1"/>
 <connect gate="A" pin="22" pad="2"/>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="MANUFACTURER_PART_NUMBER" value="LTR18EZPFU10L0" constant="no"/>
-<attribute name="VENDOR" value="ROHM Semiconductor" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CRCW12060000Z0EA" constant="no"/>
+<attribute name="VENDOR" value="Vishay" constant="no"/>
 </technology>
 </technologies>
 </device>

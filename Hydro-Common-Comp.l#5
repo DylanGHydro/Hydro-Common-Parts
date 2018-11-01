@@ -258,7 +258,7 @@
 <wire x1="-0.0762" y1="0.1778" x2="-0.0762" y2="-0.1778" width="0.1524" layer="51"/>
 <wire x1="0.1016" y1="0" x2="-0.0508" y2="0" width="0" layer="51" curve="-180"/>
 <wire x1="-0.0508" y1="0" x2="0.1016" y2="0" width="0" layer="51" curve="-180"/>
-<text x="-3.2766" y="-0.635" size="1.27" layer="25" ratio="6" rot="SR0">&gt;Name</text>
+<text x="-3.2766" y="0.635" size="1.27" layer="25" ratio="6" rot="SR0">&gt;Name</text>
 </package>
 </packages>
 <packages3d>
